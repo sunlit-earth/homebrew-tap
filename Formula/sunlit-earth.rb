@@ -1,7 +1,7 @@
 class SunlitEarth < Formula
   desc "View of Earth as seen from space as your wallpaper"
   homepage "https://github.com/sunlit-earth/sunlit-earth"
-  version "0.2.2"
+  version "0.3.0"
   license "GPL-3.0-or-later"
 
   livecheck do
@@ -12,12 +12,12 @@ class SunlitEarth < Formula
   depends_on :linux
 
   on_arm do
-    url "https://github.com/sunlit-earth/sunlit-earth/releases/download/v0.2.2/sunlit-earth-0.2.2-linux-aarch64.tar.gz"
-    sha256 "aab1166b54e68d34949e69dd63444ef7d9ff555bf2d0ae113a1351740ff69f7d"
+    url "https://github.com/sunlit-earth/sunlit-earth/releases/download/v0.3.0/sunlit-earth-0.3.0-linux-aarch64.tar.gz"
+    sha256 "1bf2ae83489d0dc85f7cc5c07a2a182cf16b2df542825c66d0c2b7a3400c9cf0"
   end
   on_intel do
-    url "https://github.com/sunlit-earth/sunlit-earth/releases/download/v0.2.2/sunlit-earth-0.2.2-linux-x86_64.tar.gz"
-    sha256 "827e83d420812af5e45e9f32bba9be918a1cd85d0029ecb50e95bc69de6d4f8f"
+    url "https://github.com/sunlit-earth/sunlit-earth/releases/download/v0.3.0/sunlit-earth-0.3.0-linux-x86_64.tar.gz"
+    sha256 "f1a9e8572740ae700962ea25bfbef25a16e4d4ca41560b882ae518dc77dc016c"
   end
 
   def install
