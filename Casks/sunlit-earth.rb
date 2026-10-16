@@ -1,9 +1,9 @@
 cask "sunlit-earth" do
   arch arm: "aarch64", intel: "x86_64"
 
-  version "0.3.0"
-  sha256 arm:   "7949a1dd7bb2813fa0316a9b50edf77fb03d22867d2cf9f4bf4527c7756c746a",
-         intel: "205cd3c2f5992ccedd3c7c4751d29ccd6f533b039ff4dd285054a839e613cb77"
+  version "0.4.0"
+  sha256 arm:   "5ca351a3ec513ecc15863a456e2c7ca2d55bbea84fd62c62d8660ffaf8adde9c",
+         intel: "7200f03b7eea66cbc1f8e7ab700db01bcb2a9b1fb86056ccb77b140771a507a4"
 
   url "https://github.com/sunlit-earth/sunlit-earth/releases/download/v#{version}/sunlit-earth-#{version}-macos-#{arch}-app.zip"
   name "Sunlit Earth"
